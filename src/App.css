@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+header {
+  width: 100vw;
+  background-color: black;
+  font-size: 25px;
+  transition: all 0.5s ease-in-out;
+  position: fixed;
+}
+
+header ul {
+  /* padding: 10px; */
+  transition: 0.5s ease-in-out;
+  margin: 0;
+}
+
+header ul li {
+  display: inline-block;
+  transition: 0.5s ease-in-out;
+  padding: 20px;
+
+}
+
+header ul li button {
+  padding: 20px;
+  text-decoration: none;
+  background-color: #050505;
+  transition: 0.2s ease-in-out;
+  color: blue;
+  font-size: inherit;
+}
+
+header ul li button:hover {
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #0f0f13;
+  color: gold;
+  cursor: pointer;
+  /* font-size: 27px; */
+}

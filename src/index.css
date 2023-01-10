@@ -1,8 +1,8 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +10,92 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.content {
+  padding-top: 140px;
+  min-height: calc(100vh - 315px);
+  padding-bottom: 10px;
+  background-color: rgb(48, 47, 53);
+  color: aqua;
+  text-align: center;
+  /* display: flex; */
+}
+
+.game {
+  text-align: left;
+  background-color: black;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 2px solid gray;
+  max-width: 410px;
+  margin-left: 1vw;
+  margin-right: calc(0.5vw + 10px);
+  width: calc(100vw - 24px - 4vw);
+  display: inline-block;
+  transition: 0.2s ease-in-out;
+}
+
+.game:hover {
+  max-width: 420px;
+  margin-right: 0.5vw;
+  background-color: rgb(8, 9, 20);
+  font-size: 20px;
+  color: gold;
+}
+
+.game a {
+  text-decoration: none;
+  color: blue;
+  transition: 0.2s ease-in-out;
+}
+
+.game .name {
+  font-size: 35px;
+  padding: 20px;
+  line-height: 100px;
+  background-color: rgb(13, 13, 14, 0.5);
+}
+
+.game .name .date {
+  color: gray;
+  font-size: 15px;
+  line-height: 12px;
+  font-style: oblique;
+}
+
+.game .name .lag {
+  color: rgb(26, 81, 133);
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 15px;
+  font-style:italic;
+}
+
+.game a:hover {
+  color: gold;
+}
+
+
+.game .gameimg {
+  float: right;
+  margin-right: -4px;
+}
+
+.game .descript {
+  padding: 20px;
+  transition: 0.2s ease-in-out;
+  font-size: 15px;
+  min-height: 50px;
+  white-space: pre-line;
+  /* position: relative; */
+}
+
+
+
+@media screen and (max-width: 400px) {
+  .game .name {
+    font-size: 20px;
+    padding: 5px;
+  }
 }
