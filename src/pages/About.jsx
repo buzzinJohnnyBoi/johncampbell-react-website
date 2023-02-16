@@ -29,7 +29,7 @@ function About() {
                         HTML <br></br>
                         CSS<br></br>
                         Vba<br></br>
-                        C<br></br>
+                        C++<br></br>
                     </div>
                 </div>
                 <div className='descript'>

@@ -104,6 +104,8 @@ class game {
         var games = []
         var baseDomain = "https://games.johntheguy.tk";
         games.push(new game("Euchre (in progress)", baseDomain + "/Euchre/", null, "2023", "JavaScript", "Euchre game currently in progress"));
+        games.push(new game("PitchCom Code", "https://github.com/buzzinJohnnyBoi/PitchCom", null, "2023", "C++ (arduino)", "Code for pitchcom device made with ardiuno"));
+        games.push(new game("Customer Database", baseDomain + "/Customer%20DataBase/", null, "2022", "VBA", "Customer DataBase program for a company I worked for in Cambridge, you can download the file and you need to give the file location in the settings tab."));
         games.push(new game("Car Game", baseDomain + "/Car%20Game/", cargame, "2022", "HTML, CSS, JavaScript", "Car simulation game with skidding and crashing."));
         games.push(new game("iOS + Android App", "https://github.com/buzzinJohnnyBoi/Convert-App", null, "2022", "C# and Xaml", "Just a cross-platform xamrin app that I tried to get on the iOS app store, and I managed to get it all the way to the review process, but it was shot down because 'Your app is similar to other apps on the app store, it just varies in content and language.'"));
         games.push(new game("Minesweeper", baseDomain + "/minesweeper/", minesweeper, "2022", "HTML, CSS, JavaScript", "Minesweeper game that uses the JavaScript localStorage Property to store high scores and other information."));
