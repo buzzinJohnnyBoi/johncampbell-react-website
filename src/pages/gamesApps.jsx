@@ -102,7 +102,8 @@ class game {
     }
     static getGames() {
         var games = []
-        var baseDomain = "https://games.johntheguy.tk";
+        var baseDomain = "https://games.johncampbell.tk";
+        games.push(new game("Button", "https://funnybutton.johntheguy.tk/", null, "2023", "JavaScript + Node, AJAX", "Button that records how many times it has been clicked by anyone, and also checks the server every 10 seconds to update the number"));
         games.push(new game("Euchre (in progress)", baseDomain + "/Euchre/", null, "2023", "JavaScript", "Euchre game currently in progress"));
         games.push(new game("PitchCom Code", "https://github.com/buzzinJohnnyBoi/PitchCom", null, "2023", "C++ (arduino)", "Code for pitchcom device made with ardiuno"));
         games.push(new game("Customer Database", baseDomain + "/Customer%20DataBase/", null, "2022", "VBA", "Customer DataBase program for a company I worked for in Cambridge, you can download the file and you need to give the file location in the settings tab."));
